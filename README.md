@@ -1,6 +1,7 @@
 # paperr
 
-#project Structure 
+📁 Project Structure
+
 project_folder/
 ├── main.py                    # Main script to train the model
 ├── data_loader.py              # Handles loading images and masks
@@ -10,7 +11,8 @@ project_folder/
 ├── metrics_and_losses.py       # Defines custom metrics and losses
 ├── train_pipeline.py           # Manages the training pipeline
 ├── README.md                    # This documentation file
-└── DATASET/                      # Folder containing the dataset (images + masks)
+└── BUSBRA/                      # Folder containing the dataset (images + masks)
+
 
 #Install necessary dependencies:
 pip install tensorflow keras matplotlib scikit-learn opencv-python pillow
