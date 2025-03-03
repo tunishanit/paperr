@@ -2,7 +2,7 @@
 
 📁 Project Structure
 
-project_folder/
+#project_folder/
 ├── main.py                    # Main script to train the model
 ├── data_loader.py              # Handles loading images and masks
 ├── augmentation.py             # Applies image and mask augmentations
@@ -14,8 +14,16 @@ project_folder/
 └── BUSBRA/                      # Folder containing the dataset (images + masks)
 
 
-#Install necessary dependencies:
+
+---
+
+## 💻 Installation
+
+Install necessary dependencies:
+
+```bash
 pip install tensorflow keras matplotlib scikit-learn opencv-python pillow
+
 
 
 #Run
